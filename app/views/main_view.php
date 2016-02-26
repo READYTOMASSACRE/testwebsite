@@ -2,5 +2,4 @@
 <p>Do it</p>
 <?php
 foreach($data as $row)
-  echo '$row <br>';
-?>
+  echo " $row[Objectscol2] <br>";

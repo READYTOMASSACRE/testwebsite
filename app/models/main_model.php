@@ -4,7 +4,7 @@ class MainModel extends BaseModel
   private $db;
   function __construct()
   {
-    $db = new PDO('mysql:host=localhost;dbname=taskDb;', 'root', 'root');
+    $this->db = new PDO('mysql:host=localhost;dbname=taskDb;', 'root', 'root');
   }
   function get_data()
   {
